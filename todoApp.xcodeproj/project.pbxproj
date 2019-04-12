@@ -13,6 +13,10 @@
 		E89BC3B72260BC2000BA7159 /* todoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E89BC3B52260BC2000BA7159 /* todoApp.xcdatamodeld */; };
 		E89BC3B92260BC2200BA7159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E89BC3B82260BC2200BA7159 /* Assets.xcassets */; };
 		E89BC3BC2260BC2200BA7159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89BC3BA2260BC2200BA7159 /* LaunchScreen.storyboard */; };
+		E89BC3C62260BEF200BA7159 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89BC3C52260BEF200BA7159 /* TaskCell.swift */; };
+		E89BC3C82260C12100BA7159 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89BC3C72260C12100BA7159 /* Task.swift */; };
+		E89BC3CA2260C6CD00BA7159 /* AddTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89BC3C92260C6CD00BA7159 /* AddTaskController.swift */; };
+		E89BC3CC2260D36E00BA7159 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89BC3CB2260D36E00BA7159 /* UILabelExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E89BC3B82260BC2200BA7159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E89BC3BB2260BC2200BA7159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E89BC3BD2260BC2200BA7159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E89BC3C52260BEF200BA7159 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		E89BC3C72260C12100BA7159 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		E89BC3C92260C6CD00BA7159 /* AddTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskController.swift; sourceTree = "<group>"; };
+		E89BC3CB2260D36E00BA7159 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		E89BC3AD2260BC2000BA7159 /* todoApp */ = {
 			isa = PBXGroup;
 			children = (
+				E89BC3C52260BEF200BA7159 /* TaskCell.swift */,
 				E89BC3AE2260BC2000BA7159 /* AppDelegate.swift */,
 				E89BC3B02260BC2000BA7159 /* ViewController.swift */,
 				E89BC3B22260BC2000BA7159 /* Main.storyboard */,
@@ -63,6 +72,9 @@
 				E89BC3BA2260BC2200BA7159 /* LaunchScreen.storyboard */,
 				E89BC3BD2260BC2200BA7159 /* Info.plist */,
 				E89BC3B52260BC2000BA7159 /* todoApp.xcdatamodeld */,
+				E89BC3C72260C12100BA7159 /* Task.swift */,
+				E89BC3C92260C6CD00BA7159 /* AddTaskController.swift */,
+				E89BC3CB2260D36E00BA7159 /* UILabelExtension.swift */,
 			);
 			path = todoApp;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E89BC3C62260BEF200BA7159 /* TaskCell.swift in Sources */,
 				E89BC3B12260BC2000BA7159 /* ViewController.swift in Sources */,
+				E89BC3CA2260C6CD00BA7159 /* AddTaskController.swift in Sources */,
+				E89BC3C82260C12100BA7159 /* Task.swift in Sources */,
+				E89BC3CC2260D36E00BA7159 /* UILabelExtension.swift in Sources */,
 				E89BC3B72260BC2000BA7159 /* todoApp.xcdatamodeld in Sources */,
 				E89BC3AF2260BC2000BA7159 /* AppDelegate.swift in Sources */,
 			);
